@@ -26,10 +26,6 @@ android {
     }
 }
 
-repositories {
-    maven { url 'https://api.xposed.info/' }
-}
-
 dependencies {
     compileOnly 'de.robv.android.xposed:api:82:sources'
     compileOnly 'de.robv.android.xposed:api:82'
